@@ -11,11 +11,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quov
 x-kinRank: "7"
 x-alexaRank: "391003"
 tags: Password
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/quovo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Quovo API v3 - Update your password
+  x-api-slug: me-put
+  description: "Update your API password. All future requests to /v3/tokens must use
+    the new password to properly authenticate.\r\n\r\nNew API passwords have several
+    requirements:\r\n\r\n* Must be at least 6 characters long\r\n* Must contain a
+    letter, a number, and a special character\r\n* Must not contain or be similar
+    to your registered email or Quovo API username"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/quovo/me-put-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.quovo.com/fintech-blog/feed/

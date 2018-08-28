@@ -8,11 +8,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.
 x-kinRank: "8"
 x-alexaRank: "450"
 tags: Password
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/okta/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Users (Okta API) - Set Password
+  x-api-slug: usersuserid-put
+  description: Set password.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
+  humanURL: https://www.okta.com
+  baseURL: https://example.com//api/v1
+  tags: Authentication, Target, Stack Network, SaaS, Enterprise, Technology, API Provider,
+    API Service Provider, Identities, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/okta/usersuserid-put-openapi.md
+- name: Users (Okta API) - List Password Expired Users
+  x-api-slug: users-get
+  description: List password expired users.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
+  humanURL: https://www.okta.com
+  baseURL: https://example.com//api/v1
+  tags: Authentication, Target, Stack Network, SaaS, Enterprise, Technology, API Provider,
+    API Service Provider, Identities, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/okta/users-get-openapi.md
 - name: Users (Okta API) - Forgot Password (One Time Code)
   x-api-slug: usersuseridcredentialsforgot-password-post
   description: Forgot password (one time code).
@@ -26,6 +48,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/okta/usersuseridcredentialsforgot-password-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/okta/usersuseridcredentialsforgot-password-post-openapi.md
+- name: Users (Okta API) - Change Password
+  x-api-slug: usersuseridcredentialschange-password-post
+  description: Change password.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
+  humanURL: https://www.okta.com
+  baseURL: https://example.com//api/v1
+  tags: Authentication, Target, Stack Network, SaaS, Enterprise, Technology, API Provider,
+    API Service Provider, Identities, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/okta/usersuseridcredentialschange-password-post-openapi.md
+- name: Users (Okta API) - Reset Password
+  x-api-slug: usersuseridlifecyclereset-password-post
+  description: Reset password.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
+  humanURL: https://www.okta.com
+  baseURL: https://example.com//api/v1
+  tags: Authentication, Target, Stack Network, SaaS, Enterprise, Technology, API Provider,
+    API Service Provider, Identities, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/okta/usersuseridlifecyclereset-password-post-openapi.md
+- name: Users (Okta API) - Expire Password
+  x-api-slug: usersuseridlifecycleexpire-password-post
+  description: Expire password.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
+  humanURL: https://www.okta.com
+  baseURL: https://example.com//api/v1
+  tags: Authentication, Target, Stack Network, SaaS, Enterprise, Technology, API Provider,
+    API Service Provider, Identities, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/okta/usersuseridlifecycleexpire-password-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://nxtport.api.gallery.streamdata.io

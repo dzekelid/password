@@ -7,11 +7,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blaze
 x-kinRank: "8"
 x-alexaRank: "69236"
 tags: Password
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/blazemeter/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Blazemeter API Explorer - Patch User Password
+  x-api-slug: userpassword-patch
+  description: Patch user password.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
+  humanURL: http://blazemeter.com/
+  baseURL: https://a.blazemeter.com//api/v4
+  tags: Testing, Testing, Performance, Stack Network, SaaS, Technology, Enterprise,
+    API Service Provider, API Provider, Profiles, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/blazemeter/userpassword-patch-openapi.md
+- name: Blazemeter API Explorer - Post User Password
+  x-api-slug: userpassword-post
+  description: Post user password.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
+  humanURL: http://blazemeter.com/
+  baseURL: https://a.blazemeter.com//api/v4
+  tags: Testing, Testing, Performance, Stack Network, SaaS, Technology, Enterprise,
+    API Service Provider, API Provider, Profiles, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/blazemeter/userpassword-post-openapi.md
+- name: Blazemeter API Explorer - Put User Password
+  x-api-slug: userpassword-put
+  description: Put user password.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
+  humanURL: http://blazemeter.com/
+  baseURL: https://a.blazemeter.com//api/v4
+  tags: Testing, Testing, Performance, Stack Network, SaaS, Technology, Enterprise,
+    API Service Provider, API Provider, Profiles, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/blazemeter/userpassword-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bitly.api.gallery.streamdata.io

@@ -62,6 +62,21 @@ paths:
       - Sobjects
       - User
       - Password
+    delete:
+      summary: Delete Version Sobjects User  Password
+      description: Resets an user password. Salesforce will reset the user password
+        to an auto-generated password, which will be returned in the response.
+      operationId: version.sobjects.User.id.password.delete
+      x-api-path-slug: versionsobjectsuseridpassword-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Version
+      - Sobjects
+      - User
+      - ""
+      - Password
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -7,11 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Password
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: SendGrid - Put User Password
+  x-api-slug: userpassword-put
+  description: |-
+    **This endpoint allows you to update your password.**
+
+    Keeping your user profile up to date is important. This will help SendGrid to verify who you are as well as contact you should we need to.
+
+    For more information about your user profile:
+
+    * [SendGrid Account Settings](https://sendgrid.com/docs/User_Guide/Settings/account.html)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/sendgrid/userpassword-put-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

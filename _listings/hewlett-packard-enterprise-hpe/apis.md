@@ -10,11 +10,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Password
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: HPE OneSphere API - Post Password Reset
+  x-api-slug: passwordreset-post
+  description: Request a single-use password reset token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/hewlett-packard-enterprise-hpe/passwordreset-post-openapi.md
+- name: HPE OneSphere API - Post Password Reset Change
+  x-api-slug: passwordresetchange-post
+  description: Process a password reset.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/hewlett-packard-enterprise-hpe/passwordresetchange-post-openapi.md
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/

@@ -8,11 +8,52 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesf
 x-kinRank: "10"
 x-alexaRank: "146"
 tags: Password
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/salesforce/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Salesforce - Get Version Sobjects User  Password
+  x-api-slug: versionsobjectsuseridpassword-get
+  description: Gets password expiration status for a given user. The session must
+    have permission to access the given user password information, otherwise an error
+    response is returned.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesforce.jpg
+  humanURL: http://developer.salesforce.com
+  baseURL: https://na14.salesforce.com//services/data
+  tags: Freshbooks, Hosting, PaaS, Notifications, BaaS, CRM, Sales, Spreadsheets,
+    Wearables, Stack Network, Stack, Productivity, SaaS, Technology, Enterprise, internet,
+    SDIO Partner, Customers, Databases, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/salesforce/versionsobjectsuseridpassword-get-openapi.md
+- name: Salesforce - Add Version Sobjects User  Password
+  x-api-slug: versionsobjectsuseridpassword-post
+  description: Changes the password for a given user ID. The new password must conform
+    to the password policies for the organization, otherwise you will get an error
+    response. You can only change one password per request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesforce.jpg
+  humanURL: http://developer.salesforce.com
+  baseURL: https://na14.salesforce.com//services/data
+  tags: Freshbooks, Hosting, PaaS, Notifications, BaaS, CRM, Sales, Spreadsheets,
+    Wearables, Stack Network, Stack, Productivity, SaaS, Technology, Enterprise, internet,
+    SDIO Partner, Customers, Databases, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/salesforce/versionsobjectsuseridpassword-post-openapi.md
+- name: Salesforce - Delete Version Sobjects User  Password
+  x-api-slug: versionsobjectsuseridpassword-delete
+  description: Resets an user password. Salesforce will reset the user password to
+    an auto-generated password, which will be returned in the response.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesforce.jpg
+  humanURL: http://developer.salesforce.com
+  baseURL: https://na14.salesforce.com//services/data
+  tags: Freshbooks, Hosting, PaaS, Notifications, BaaS, CRM, Sales, Spreadsheets,
+    Wearables, Stack Network, Stack, Productivity, SaaS, Technology, Enterprise, internet,
+    SDIO Partner, Customers, Databases, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/salesforce/versionsobjectsuseridpassword-delete-openapi.md
 - name: Salesforce Sandbox - Get Version Sobjects User Password
   x-api-slug: versionsobjectsuseridpassword-get
   description: Gets password expiration status for a given user. The session must

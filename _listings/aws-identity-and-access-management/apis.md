@@ -12,11 +12,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Password
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Identity and Access Management API - Change Password
+  x-api-slug: actionchangepassword-get
+  description: Changes the password of the IAM user who is calling this action.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/aws-identity-and-access-management/actionchangepassword-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Account Password Policy
+  x-api-slug: actiondeleteaccountpasswordpolicy-get
+  description: Deletes the password policy for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/password/master/_listings/aws-identity-and-access-management/actiondeleteaccountpasswordpolicy-get-openapi.md
 - name: AWS Identity and Access Management API - Get Account Password Policy
   x-api-slug: actiongetaccountpasswordpolicy-get
   description: Retrieves the password policy for the AWS account.
